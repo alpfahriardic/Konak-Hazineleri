@@ -1,4 +1,4 @@
-import { bootstrapCameraKit, Transform2D } from "@snap/camera-kit";
+import { bootstrapCameraKit } from "@snap/camera-kit";
 
 (async function main() {
   const cameraKit = await bootstrapCameraKit({
